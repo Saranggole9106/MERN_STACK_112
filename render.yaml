@@ -6,7 +6,6 @@ services:
     buildCommand: npm install
     startCommand: node index.js
     plan: free
-    autoDeploy: false
     envVars:
       - key: MONGO_URI
         sync: false
@@ -14,5 +13,3 @@ services:
         generateValue: true
       - key: CLIENT_URL
         value: https://artfolio-client-1765860529.netlify.app
-      - key: PORT
-        value: 10000
