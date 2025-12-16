@@ -2,7 +2,7 @@ services:
   - type: web
     name: artfolio-server
     env: node
-    root: server
+    rootDir: server
     buildCommand: npm install
     startCommand: node index.js
     plan: free
